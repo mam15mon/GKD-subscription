@@ -11,7 +11,7 @@ apps.sort((a, b) => a.id.localeCompare(b.id));
 export default defineGkdSubscription({
   id: 233,
   name: 'Subscription',
-  version: 38,
+  version: 42,
   author: 'author',
   checkUpdateUrl: './gkd.version.json5',
   supportUri: 'https://github.com/gkd-kit/subscription-template',

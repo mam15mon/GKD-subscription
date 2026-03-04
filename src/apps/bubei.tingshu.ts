@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 0,
       name: '开屏广告',
-      enable: false,
+      enable: true,
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'activity',
@@ -21,7 +21,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '局部广告-悬浮广告',
-      enable: false,
+      enable: true,
       rules: [
         {
           key: 0,

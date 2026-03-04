@@ -7,7 +7,7 @@ const app = defineGkdApp({
     {
       key: 0,
       name: '功能类-电脑微信快捷自动登录',
-      enable: false,
+      enable: true,
       fastQuery: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -29,7 +29,7 @@ const app = defineGkdApp({
     {
       key: 1,
       name: '功能类-自动领取微信红包',
-      enable: false,
+      enable: true,
       desc: '自动领取私聊红包,群聊红包',
       fastQuery: true,
       rules: [
@@ -62,7 +62,7 @@ const app = defineGkdApp({
     {
       key: 2,
       name: '功能类-发送图片自动勾选原图',
-      enable: false,
+      enable: true,
       desc: '发送图片时自动勾选"原图"',
       fastQuery: true,
       actionMaximum: 1,

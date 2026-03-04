@@ -6,7 +6,16 @@
       "Bash(pnpm run:*)",
       "Bash(git add:*)",
       "Bash(git push:*)",
-      "mcp__serana__think_about_whether_you_are_done"
+      "mcp__serana__think_about_whether_you_are_done",
+      "Bash(npx pnpm:*)",
+      "Bash(echo pnpm not found in PATH:*)",
+      "Bash(~/AppData/Roaming/npm/pnpm.cmd run:*)",
+      "Bash(npm install:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(tasklist:*)",
+      "Bash(cd:*)"
     ]
   }
 }
