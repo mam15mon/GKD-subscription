@@ -59,6 +59,22 @@ const app = defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '功能类-发送图片自动勾选原图',
+      enable: false,
+      desc: '发送图片时自动勾选"原图"',
+      fastQuery: true,
+      actionMaximum: 1,
+      rules: [
+        {
+          key: 0,
+          name: '发送原图',
+          activityIds: '.plugin.gallery.ui.AlbumPreviewUI',
+          matches: '[id="com.tencent.mm:id/ngr"][desc*="原图"][checked=false]',
+        },
+      ],
+    },
   ],
 });
 
